@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IRCTC Ticket Booking Form</title>
+</head>
+<body>
+  <h1>IRCTC Ticket Booking Form</h1>
+
+  <form action="#" method="post">
+    <h3>Passenger Details</h3>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+    <h3>Journey Details</h3>
+    <label for="from">From Station:</label><br>
+    <input type="text" id="from" name="from" required><br><br>
+
+    <label for="to">To Station:</label><br>
+    <input type="text" id="to" name="to" required><br><br>
+
+    <label for="date">Journey Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="class">Class:</label><br>
+    <select id="class" name="class">
+      <option value="sleeper">Sleeper (SL)</option>
+      <option value="3ac">AC 3 Tier (3A)</option>
+      <option value="2ac">AC 2 Tier (2A)</option>
+      <option value="1ac">AC First Class (1A)</option>
+    </select><br><br>
+    <h3>Contact Details</h3>
+    <label for="phone">Mobile Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="email">Email ID:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <button type="submit">Book Ticket</button>
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>
